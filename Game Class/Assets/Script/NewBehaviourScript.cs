@@ -12,28 +12,37 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        /*
-        int x = 60;
-        int y = 48;
-
-        int result = 0;
-
-        for (int i = 1; i <= x && i <= y; i++)
-        {
-            if (x % i == 0 && y % i == 0)
-            {
-                result = i;
-            }
-        }
-        */
-
-        //Debug.Log(result);
         Debug.Log("Start 함수입니다.");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Update 함수입니다.");
+        Debug.Log(Time.deltaTime);
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.position += Vector3.forward * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.position += Vector3.left * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.position += Vector3.back * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.position += Vector3.right * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            transform.position += Vector3.up * Time.deltaTime;
+        }
     }
 }
