@@ -25,19 +25,4 @@ public class Controller : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("Collision");
-    }
-
-    private void OnCollisionStay(Collision collision)
-    {
-        Debug.Log("Stay");
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        Debug.Log("Exit");
-    }
-
 }
