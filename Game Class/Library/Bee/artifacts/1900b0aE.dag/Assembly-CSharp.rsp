@@ -357,6 +357,7 @@
 "Assets/Class/Instantiate/Script/SkyProperty.cs"
 "Assets/Class/Invoke Funtion/Script/NewBehaviourScript.cs"
 "Assets/Class/Invoke Funtion/Script/ObjectMove.cs"
+"Assets/Class/Nevmesh/Script/NavControl.cs"
 "Assets/Class/RayCast/Script/DataManager.cs"
 "Assets/Class/RayCast/Script/MoveLerp.cs"
 "Assets/Class/RayCast/Script/Picking.cs"

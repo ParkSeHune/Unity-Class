@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class/Collision/Coliision Example.unity
+- path: Assets/Class/Nevmesh/Scene/Nevmesh Example.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
