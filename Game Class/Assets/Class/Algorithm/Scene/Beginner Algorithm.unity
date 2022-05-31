@@ -897,8 +897,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   answer: {fileID: 1191558850}
-  variable: 20
-  result: 0
+  input: asdf
+  condition: 0
+  array: 
 --- !u!4 &1662413277
 Transform:
   m_ObjectHideFlags: 0
