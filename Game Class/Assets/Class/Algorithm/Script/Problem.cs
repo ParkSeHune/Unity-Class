@@ -6,11 +6,39 @@ using UnityEngine.UI;
 public class Problem : MonoBehaviour
 {
     public Text answer;
-    public string input;
-    public bool condition;
-    public int[] array;
+    public int input;
+    public int result;
 
     //프로그래머스 1단계
+
+
+    //펙토리얼
+    /*
+   
+    public Text answer;
+    public int input;
+    public int result;
+
+    // 재귀 함수 - 자기 자신을 호출하는 함수
+    int Factorial(int x)
+    {
+        if (x == 1)
+        {
+            return 1;
+        }
+        else
+        {
+            return x * Factorial(x - 1);
+        }
+    }
+
+    public void Start()
+    {
+        result = Factorial(input);
+        answer.text = result.ToString();
+    }
+
+    */
 
     //완벽한 문자열 판별하기
     /*
@@ -86,7 +114,6 @@ public class Problem : MonoBehaviour
     
     }
     */
-
 
     //과잉수 알고리즘
     /*
