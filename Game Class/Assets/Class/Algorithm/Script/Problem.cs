@@ -6,10 +6,39 @@ using UnityEngine.UI;
 public class Problem : MonoBehaviour
 {
     public Text answer;
-    public int input;
-    public int result;
+    public int[] array;
+    int result;
 
     //프로그래머스 1단계
+
+    //나머지로 떨어진 수의 갯수 구하기
+
+    public void Start()
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            array[i] = array[i] % 36;
+        }
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            int count = 0;
+            for (int j = 0; j < array.Length; j++)
+            {
+                if (array[i] != array[j])
+                {
+                    count++;
+                }
+            }
+
+            if (count == 0)
+            {
+                result++;
+            }
+        }
+
+        answer.text = result.ToString();
+    }
 
 
     //펙토리얼

@@ -897,9 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   answer: {fileID: 1191558850}
-  input: asdf
-  condition: 0
-  array: 
+  array: 2400000048000000240000002400000048000000
 --- !u!4 &1662413277
 Transform:
   m_ObjectHideFlags: 0
