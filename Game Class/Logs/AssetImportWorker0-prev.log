@@ -15,7 +15,7 @@ C:/Users/user/Desktop/Unity-Class/Game Class
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60033
+54291
 Successfully changed project path to: C:/Users/user/Desktop/Unity-Class/Game Class
 C:/Users/user/Desktop/Unity-Class/Game Class
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/user/Desktop/Unity-Class/Game Class
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 121.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 292.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -62,176 +62,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010664 seconds.
+Registered in 0.342889 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 118.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
+- Completed reload, in  8.274 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1072ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (8275ms)
+		BeginReloadAssembly (6146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (719ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1256ms)
+			LoadAssemblies (6150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
+			SetupTypeCache (762ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (379ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
+				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005889 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity-Class\Game Class\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity-Class\Game Class\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.107 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2108ms)
-		BeginReloadAssembly (185ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1637ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (459ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (951ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (797ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3584 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (158.3 KB). Loaded Objects now: 4062.
-Memory consumption went from 140.2 MB to 140.1 MB.
-Total: 4.024000 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.171400 ms MarkObjects: 3.243600 ms  DeleteObjects: 0.296900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 595133.656520 seconds.
-  path: Assets/Class/Terrain
-  artifactKey: Guid(3978bddf1b3ea2146976fc8e76f0f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class/Terrain using Guid(3978bddf1b3ea2146976fc8e76f0f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e76c8712830fc0b01d95ae638b17d0') in 0.038491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.690587 seconds.
-  path: Assets/Class/Terrain/Script
-  artifactKey: Guid(bcf50e2f0630a7343b7e99f174602b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class/Terrain/Script using Guid(bcf50e2f0630a7343b7e99f174602b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d4d10fbfdeab78b9b2eb12470d13ee') in 0.014932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.186362 seconds.
-  path: Assets/Class/Terrain/Scene/Terrain Example.unity
-  artifactKey: Guid(7ebbeef77c552034191df2499972da48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class/Terrain/Scene/Terrain Example.unity using Guid(7ebbeef77c552034191df2499972da48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ab2af45459907a2e6c6d48cd6b2b7a') in 0.014293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1123.569739 seconds.
-  path: Assets/Samples/Cinemachine/2.8.6/Cinemachine Example Scenes/Shared/Textures/checkerboard.png
-  artifactKey: Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Cinemachine/2.8.6/Cinemachine Example Scenes/Shared/Textures/checkerboard.png using Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a6e3eccb177e41957107861ca05ee2') in 0.339066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.638827 seconds.
-  path: Assets/Samples/Cinemachine/2.8.6/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif
-  artifactKey: Guid(7299335822211614ba0371ee22e46641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Cinemachine/2.8.6/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif using Guid(7299335822211614ba0371ee22e46641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b1274df802d7c48adfb52bc994e515') in 0.164253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.525140 seconds.
-  path: Assets/Samples/Cinemachine/2.8.6/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif
-  artifactKey: Guid(6ea50cf81e05dce4395defcd7888072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Cinemachine/2.8.6/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif using Guid(6ea50cf81e05dce4395defcd7888072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab8c9872282849a8116cabfc6c8031d') in 0.169383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 287.964584 seconds.
-  path: Assets/Class/Terrain/Script/NewLayer.terrainlayer
-  artifactKey: Guid(480c172f6af62974ab2d7a24a74b8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class/Terrain/Script/NewLayer.terrainlayer using Guid(480c172f6af62974ab2d7a24a74b8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126b938ee83e29cb9b941dc15f79e851') in 0.109747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.994915 seconds.
-  path: Assets/PBR Ground Free/Materials/PBR Ground Free.mat
-  artifactKey: Guid(cceb840ebeffc4340a35fcae3806430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR Ground Free/Materials/PBR Ground Free.mat using Guid(cceb840ebeffc4340a35fcae3806430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a89394bffd28da2b225cf66bf645fa') in 0.980274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/PBR Ground Free/Textures/Mud_forest_metallic.png
-  artifactKey: Guid(cda1d614beec846a990202d8ca706836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR Ground Free/Textures/Mud_forest_metallic.png using Guid(cda1d614beec846a990202d8ca706836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f8033511047dab63150e22a882b544') in 0.667062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/PBR Ground Free/Textures/Mud_forest_roughness.png
-  artifactKey: Guid(6f78be239fa4d420a8c1b83771a14c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR Ground Free/Textures/Mud_forest_roughness.png using Guid(6f78be239fa4d420a8c1b83771a14c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8452fc76aecb30cc2bb05c6289ddbe') in 0.490575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/PBR Ground Free/Textures/Mud_forest_baseColor.png
-  artifactKey: Guid(3f24b311153434aed806d09b6893d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR Ground Free/Textures/Mud_forest_baseColor.png using Guid(3f24b311153434aed806d09b6893d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dd3df855404748560d46e225c51ceb') in 0.515825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006758 seconds.
-  path: Assets/PBR Ground Free/Textures/Mud_forest_opacity.png
-  artifactKey: Guid(bb53066f2fd1c487c8de03c9dfba7928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR Ground Free/Textures/Mud_forest_opacity.png using Guid(bb53066f2fd1c487c8de03c9dfba7928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6fb2cab95d7bfcc3229e0d1bb3d914') in 0.385488 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Registered in 2.078226 seconds.
